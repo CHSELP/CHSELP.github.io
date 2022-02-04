@@ -55,7 +55,7 @@ iframe{
 
 .main{
     background-color: lightgrey;
-    width: 500px;
+    width: 0px;
     height: 0px;
 }
 
@@ -143,9 +143,9 @@ ul li {
 
 /* Article */
 
-/*article {
+article {
     text-align: center;
-}*/
+}
 
 h3 {
     font-size: 40px;
