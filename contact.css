@@ -55,6 +55,8 @@ iframe{
 
 .main{
     background-color: lightgrey;
+    width: 500px;
+    height: 0px;
 }
 
 /* end of contact us part */
