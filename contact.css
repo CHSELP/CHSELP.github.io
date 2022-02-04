@@ -55,6 +55,7 @@ iframe{
 
 .main{
     background-color: lightgrey;
+    width: 500px;
 }
 
 /* end of contact us part */
@@ -141,9 +142,9 @@ ul li {
 
 /* Article */
 
-article {
+/*article {
     text-align: center;
-}
+}*/
 
 h3 {
     font-size: 40px;
