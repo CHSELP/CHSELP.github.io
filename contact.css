@@ -1,9 +1,10 @@
 body {
-    border-style: double;
-    font-family: 'arial', sans-serif;
-    background-color: #ffffff;
-    margin: 0 auto;
-}
+     border-style: double;
+     font-family: 'arial', sans-serif;
+     background-color: #ffffff;
+     width: 0 auto;
+     margin: 0 auto;
+ }
 
 #wrapper {
     width: 0 auto;
@@ -24,15 +25,14 @@ header {
 }
 
 .about-section {
-    width: 800px;
-    margin-top: 0px;
-    padding: 80px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-    border: 2px solid;
-    border-color: #fe6a26;
-}
+     margin-top: 0px;
+     padding: 80px;
+     text-align: center;
+     background-color: #474e5d;
+     color: white;
+     border: 2px solid;
+     border-color: #fe6a26;
+ }
 
 h1 {
     font-style: normal;
@@ -53,11 +53,12 @@ iframe{
     border: none;
 }
 
-.main{
-    background-color: lightgrey;
-    width: 0px;
-    height: 0px;
-}
+.main {
+     margin-right: 295px;
+     margin-left: 20px;
+     margin: 0 auto;
+     width: 0 auto;
+ }
 
 /* end of contact us part */
 
