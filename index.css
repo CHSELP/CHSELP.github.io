@@ -2,7 +2,7 @@
      border-style: double;
      font-family: 'arial', sans-serif;
      background-color: #ffffff;
-     width: 0 auto;
+     width: 100%;
      margin: 0 auto;
  }
  
@@ -17,7 +17,7 @@
  
  header {
      left: 0px;
-     width: 70px;
+     width: 100%;
      background-color: black;
      padding: 10px;
      border: 2px solid;
@@ -125,7 +125,7 @@ h2 {
      margin-right: 295px;
      margin-left: 20px;
      margin: 0 auto;
-     width: 0 auto;
+     width: 100%;
  }
  /* Article */
  
@@ -142,7 +142,7 @@ h2 {
  footer {
      clear: both;
      padding: 5px;
-     width: 0 auto;
+     width: 100%;
      background-color: #fe6a26;
      margin: 0 auto;
  }
