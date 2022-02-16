@@ -4,11 +4,64 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHS ELP</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
 </head>
+    /* Start*/
+    <style>
+* {
+  box-sizing: border-box;
+}
 
+.asidenav {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .asidenav, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+
+<body>
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+</body>
+
+/*Finish*/
 <body>
 
     <div id="wrapper">
@@ -20,6 +73,8 @@
 
     </div>
 
+    <div id="asidenav"> <!--This is for the mobile responsive -->    
+    
     <aside>
         <div id="mySidenav">
             <ul class="sidenav">
@@ -66,7 +121,8 @@
 
     </aside>
 
-
+        </div><!--This is for the mobile responsive -->    
+    
     <div class="main">
 
         <div class="about-section">
@@ -83,13 +139,14 @@
         </article>
     </div>
 
+    <div class="right"> <!--This is for the mobile responsive -->    
     <footer>
 
         <p>&copy; 2020 Coalinga High School Expanded Learning Program</p>
 
     </footer>
-
-</body>
+    </div> <!--This is for the mobile responsive -->
+    </body>
 
 
 
