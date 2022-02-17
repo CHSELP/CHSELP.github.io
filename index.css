@@ -52,11 +52,11 @@ h2 {
      border: 2px solid;
      border-color: #fe6a26;
      color: black;
-     padding: 100px 50px 100px 50px;
  }
  /* The address */
  
  address {
+  width: 100%;
      border: 3px solid;
      border-color: #fe6a26;
      text-align: center;
@@ -95,36 +95,13 @@ li a:hover {
 }  
      
  
- .sidenav {
-     padding: inherit;
-     background-color: #202020;
-     overflow: hidden;
- }
- 
- .sidenav a {
-     color: #f2f2f2;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 17px;
- }
- 
- .sidenav a:hover {
-     background-color: #fe6a26;
-     color: black;
- }
- 
- .sidenav a.active {
-     background-color: #4caf50;
-     color: white;
- }
  /* The sidenav */
 
 /* Twitter Timeline*/
 #twitter{
     margin-top: 20px;
-    width: 220px;
-    height: 500px;
+    width: 100%;
+    height: 250px;
 }
 /* The end for Twitter Timeline*/
  
