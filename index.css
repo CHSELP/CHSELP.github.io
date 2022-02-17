@@ -44,10 +44,8 @@ h2 {
  }
  
  aside {
-     width: 0 auto;
-     height: 1500px;
-     float: right;
-     right: 0%;
+     width: 100%;
+     height: 10px;
      margin: 0 auto;
      font-size: 14px;
      background-color: #ffffff;
@@ -67,7 +65,7 @@ h2 {
  /*sidenav*/
  
  ul li {
-  display: inline;
+     display: inline;
      list-style-type: none;
      text-align: center;
      width: auto;
