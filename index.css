@@ -42,13 +42,13 @@ h2 {
      color: black;
  }
  
- aside {
-     padding: 90px;
-     font-size: 14px;
-     background-color: #dede0d;
-     border-color: yellow;
+aside {
+ font-size: 14px;
+     background-color: #ffffff;
+     border: 110px solid;
+     border-color: #fe6a26;
      color: black;
- }
+}
  /* The address */
  
  address {
