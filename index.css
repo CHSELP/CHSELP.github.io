@@ -8,7 +8,7 @@
  #wrapper {
      width: 0 auto;
      background-color: #fe6a26;
-     padding: 2px;
+     padding: 0px;
      border: 2px solid;
      border-color: #fe6a26;
  }
@@ -44,7 +44,7 @@ h2 {
  
  aside {
      width: 100%;
-  heigth: 100%;
+     heigth: 100%;
      margin: 0 auto;
      font-size: 14px;
      background-color: #ffffff;
@@ -55,7 +55,7 @@ h2 {
  /* The address */
  
  address {
-  width: 100%;
+     width: 100%;
      border: 3px solid;
      border-color: #fe6a26;
      text-align: center;
@@ -64,10 +64,10 @@ h2 {
  /*sidenav*/
  
  ul li {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: inline;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     display: inline;
      list-style-type: none;
      text-align: center;
      width: auto;
@@ -90,7 +90,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: orange;
 }  
      
  
