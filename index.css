@@ -43,13 +43,10 @@ h2 {
  }
  
  aside {
-     width: 100%;
-     heigth: 100%;
-     margin: 0 auto;
+     padding: 90px;
      font-size: 14px;
-     background-color: #ffffff;
-     border: 2px solid;
-     border-color: #fe6a26;
+     background-color: #dede0d;
+     border-color: yellow;
      color: black;
  }
  /* The address */
