@@ -53,14 +53,13 @@ h2 {
  /*sidenav*/
  
  ul li {
-     margin: 0;
-     padding: 0;
+     padding: 10px;
      overflow: hidden;
      display: inline;
      list-style-type: none;
      text-align: center;
      width: auto;
-     margin: 0px;
+     margin: 2px;
      border: 2px solid;
      border-color: #fe6a26;
      background-color: #202020;
