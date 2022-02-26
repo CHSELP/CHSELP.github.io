@@ -55,14 +55,17 @@ h2 {
  }
  /* The address */
  /*sidenav*/
- 
+
+#mySidenav {
+  width: 0 auto;
+ }
+
  ul li {
-     padding: 10px;
-     overflow: hidden;
+     padding: 0 auto;
      display: inline;
      list-style-type: none;
      text-align: center;
-     width: auto;
+     width: 0 auto;
      margin: 2px;
      border: 2px solid;
      border-color: #fe6a26;
