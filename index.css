@@ -75,6 +75,7 @@ h2 {
 
 li {
   float: left;
+ width: 130px;
 }
 
 li a {
