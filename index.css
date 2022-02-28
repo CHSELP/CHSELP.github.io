@@ -1,6 +1,6 @@
  body {
      font-family: 'arial', sans-serif;
-     background-color: #ffffff;
+     background-color: #fe6a26;
      margin: 0 auto;
  }
 
@@ -52,7 +52,7 @@ h2 {
      border: 3px solid;
      border-color: #fe6a26;
      text-align: center;
-  background-color: #fe6a26;
+     background-color: #fe6a26;
 }
  /* The address */
  /*sidenav*/
