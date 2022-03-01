@@ -16,20 +16,6 @@ header {
  display:flex
 }
 
-aside {
-    width: 0 auto;
-    height: 1500px;
-    float: right;
-    right: 0%;
-    margin: 0 auto;
-    font-size: 14px;
-    background-color: #ffffff;
-    border: 2px solid;
-    border-color: #fe6a26;
-    color: black;
-    padding: 100px 50px 100px 50px;
-}
-
 
 /* The address */
 
@@ -80,32 +66,6 @@ li a {
 li a:hover {
   background-color: orange;
 }  
-
-.sidenav {
-    padding: inherit;
-    background-color: #202020;
-    overflow: hidden;
-}
-
-.sidenav a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.sidenav a:hover {
-    background-color: #fe6a26;
-    color: black;
-}
-
-.sidenav a.active {
-    background-color: #4caf50;
-    color: white;
-}
-/* The sidenav */
-
 
 /* Twitter Timeline*/
 
