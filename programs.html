@@ -8,24 +8,51 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="programs.css">
 </head>
+    
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.mySidenav {
+  background-color: #2196F3;
+  padding: 0px;
+  width: 100%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 100%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: black;
+  padding: 20px;
+  float: left;
+  width: 100%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .asidenav, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+    
 <body>
-
     <div id="wrapper">
 
         <header>
             <img src="Horned%20Toad%20Face.gif" alt="Horned Toad Face" width="60">
-        </header>
-
-    </div>
-
-
-    <aside>
-        <div id="mySidenav">
+            
+            <div id="mySidenav">
             <ul class="sidenav">
                 <li><a href="index.html">ABOUT</a></li>
                 <li><a href="programs.html">PROGRAMS</a></li>
-                <!--<li><a href="#">EVENTS</a></li>-->
+                <!--<li><a href="#">EVENTS</a></li> -->
                 <li><a href="schedule.html">SCHEDULE</a></li>
                 <li><a href="staff.html">STAFF</a></li>
                 <!--<li><a href="#">GALLERY</a></li>-->
@@ -34,6 +61,9 @@
             </ul>
 
         </div>
+        </header>
+        
+    </div>
 
         <address>
             <h2>Working Hours</h2>
