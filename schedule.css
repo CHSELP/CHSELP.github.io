@@ -1,31 +1,19 @@
- body {
-     border-style: double;
-     margin-top: 20px;
-     margin-left: 540px;
+body {
      font-family: 'arial', sans-serif;
-     background-color: #ffffff;
-     width: 0 auto;
+     background-color: #fe6a26;
      margin: 0 auto;
  }
- 
+
+header {
+ display:flex
+}
+
  #wrapper {
      width: 0 auto;
      background-color: #fe6a26;
-     padding: 2px;
+     padding: 0px;
      border: 2px solid;
      border-color: #fe6a26;
-     ;
- }
- 
- header {
-     left: 0px;
-     width: 70px;
-     background-color: black;
-     padding: 10px;
-     border: 2px solid;
-     border-color: #fe6a26;
-     ;
-     border-radius: 10px;
  }
  
  .about-section {
@@ -37,84 +25,74 @@
      border: 2px solid;
      border-color: #fe6a26;
  }
- 
+
  h2 {
      text-align: 10px;
      font-size: 18px;
      font-style: normal;
  }
  
- aside {
-     width: 0 auto;
-     height: 1500px;
-     float: right;
-     right: 0%;
-     margin: 0 auto;
-     font-size: 14px;
-     background-color: #ffffff;
-     border: 2px solid;
-     border-color: #fe6a26;
-     color: black;
-     padding: 100px 50px 100px 50px;
- }
  /* The address */
  
- address {
+address {
+     width: 100%;
      border: 3px solid;
      border-color: #fe6a26;
      text-align: center;
- }
+     background-color: #fe6a26;
+}
  /* The address */
- /*sidenav*/
  
+/*sidenav*/
+#mySidenav {
+  width: 0 auto;
+  margin: 0 auto;
+ }
+
  ul li {
+     padding: 0 auto;
+     display: inline;
      list-style-type: none;
      text-align: center;
-     width: auto;
-     margin: 3px;
-     padding: 20px;
+     width: 0 auto;
+     margin: 2px;
      border: 2px solid;
      border-color: #fe6a26;
      background-color: #202020;
+     font-size: 13px;
  }
- 
- .sidenav {
-     padding: inherit;
-     background-color: #202020;
-     overflow: hidden;
- }
- 
- .sidenav a {
-     color: #f2f2f2;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 17px;
- }
- 
- .sidenav a:hover {
-     background-color: #fe6a26;
-     color: black;
- }
- 
- .sidenav a.active {
-     background-color: #4caf50;
-     color: white;
- }
- /* The sidenav */
- /* Twitter Timeline*/
- 
- #twitter{
-    margin-top: 20px;
-    width: 220px;
-    height: 500px;
+
+li {
+  float: left;
+ width: 130px;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
+}  
+ /* The sidenav */
+
+ /* Twitter Timeline*/
+ #twitter {
+width: 100%;
+ width: 0 auto;
+ margin: 0 auto;
+ padding: 0 auto;
+ text-align: center;
+} 
  /* The end for Twitter Timeline*/
  
  .main {
-     margin-right: 295px;
      margin: 0 auto;
-     width: 0 auto;
+     width: 100%;
  }
  /*This is for the Table*/
  
