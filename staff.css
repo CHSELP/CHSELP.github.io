@@ -77,10 +77,12 @@ li a:hover {
  /* The sidenav */
  /* Twitter Timeline*/
  
- #twitter{
-    margin-top: 20px;
-    width: 220px;
-    height: 500px;
+ #twitter {
+width: 100%;
+ width: 0 auto;
+ margin: 0 auto;
+ padding: 0 auto;
+ text-align: center;
 }
  /* The end for Twitter Timeline*/
  /*make adjustments here for the below the header body*/
