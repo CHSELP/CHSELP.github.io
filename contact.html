@@ -9,21 +9,48 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 
-<body>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.mySidenav {
+  background-color: #2196F3;
+  padding: 0px;
+  width: 100%; /* The width is 20%, by default */
+}
 
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 100%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: black;
+  padding: 20px;
+  float: left;
+  width: 100%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .asidenav, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+
+    <body>
     <div id="wrapper">
 
         <header>
             <img src="Horned%20Toad%20Face.gif" alt="Horned Toad Face" width="60">
-        </header>
-
-    </div>
-
-    <aside>
-        <div id="mySidenav">
+            
+            <div id="mySidenav">
             <ul class="sidenav">
-                <li> <a href="index.html">ABOUT</a></li>
+                <li><a href="index.html">ABOUT</a></li>
                 <li><a href="programs.html">PROGRAMS</a></li>
                 <!--<li><a href="#">EVENTS</a></li> -->
                 <li><a href="schedule.html">SCHEDULE</a></li>
@@ -34,8 +61,29 @@
             </ul>
 
         </div>
+        </header>
+        
+    </div>
+    
+    <div class="main">
 
-        <address>
+        <div class="about-section">
+            <h1>Coalinga High School</h1>
+            <p>Expanded Learning Program</p>
+        </div>
+        <article>
+            <h3>Mission Statement</h3>
+            <p>Our Mission is to provide students the opportunity to engage in quality out of school time to promote their physical, social, emotional and educational well-being.</p>
+
+            <img src="Horned%20Toad%20CHS.png" alt="Horned Toad Face" width="90" height="110">
+            <h4>Snack provided</h4>
+            <h4>Transportation provided</h4>
+        </article>
+    </div>
+
+    <div class="right"> <!--This is for the mobile responsive -->    
+    
+         <address>
             <h2>Working Hours</h2>
                 <hr style="width: 90%; text-align:left; margin:-left0">
                 <p>Mon - Fri: 3:15 - 6:15 pm</p>
@@ -54,19 +102,17 @@
                     <a href="contact.html">sarce@chusd.org</a>
             </p>
                 <hr style="width: 90%; text-align:left; margin:-left0">
-                <p><a href="contact.html">mcardenas@fcoe.org</a></p>
+                <p> <a href="contact.html">mcardenas@fcoe.org</a></p>
                 <hr style="width: 90%; text-align:left; margin:-left0">
                 <p><a href="http://chs.chusd.org/">VISIT SCHOOL WEBSITE</a></p>
             </address>
+        
         <div id="twitter">
-            <a class="twitter-timeline" data-width="220" data-height="500" data-theme="dark" href="https://twitter.com/chstoads?ref_src=twsrc%5Etfw">Tweets by chstoads</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+            
+            <a class="twitter-timeline" data-width="1000" data-height="600" data-theme="dark" href="https://twitter.com/chstoads?ref_src=twsrc%5Etfw">Tweets by chstoads</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
         </div>
-
-    </aside>
-
-
+        
+        
     <div class="main">
 
         <div class="about-section">
