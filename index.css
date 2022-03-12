@@ -4,6 +4,10 @@
      margin: 0 auto;
  }
 
+#right{
+background-color: #fe6a26;
+}
+
 header {
  display:flex
 }
